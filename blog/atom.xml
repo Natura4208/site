@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://chillbox-104.github.io/site/blog/</id>
+    <title>ChillBox 104 Blog</title>
+    <updated>2025-01-08T22:13:56.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://chillbox-104.github.io/site/blog/"/>
+    <subtitle>ChillBox 104 Blog</subtitle>
+    <icon>https://chillbox-104.github.io/site/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Hello]]></title>
+        <id>https://chillbox-104.github.io/site/blog/hello-world/</id>
+        <link href="https://chillbox-104.github.io/site/blog/hello-world/"/>
+        <updated>2025-01-08T22:13:56.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to this blog.]]></summary>
+        <content type="html"><![CDATA[<p>Welcome to this blog.</p>
+<p>This is a test post.</p>
+<p>A whole bunch of other information.</p>]]></content>
+    </entry>
+</feed>
