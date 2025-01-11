@@ -14,6 +14,7 @@ export type BlogCardProps = {
 };
 
 export default function BlogCard({ post }: BlogCardProps) {
+    console.log(post.image);
     return (
         <div className='flex flex-col items-center my-7 gap-3'>
             <div className='flex items-start text-left w-[90vw]'>

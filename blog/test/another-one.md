@@ -1,7 +1,7 @@
 ---
 slug: another-one-1
 title: AO1
-image: https://media.sproutsocial.com/uploads/2022/05/How-to-post-on-instagram-from-pc.svg
+image: https://images.squarespace-cdn.com/content/v1/5a70169e4c0dbf2a2c7bb909/1542069092148-TNC03KK9GM6XGLRUBIYN/Postboxes.jpeg?format=1500w
 ---
 
 This is just a test!!!!
