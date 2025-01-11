@@ -1,12 +1,19 @@
-import type { ReactNode } from 'react';
+import { useEffect, useState, type ReactNode } from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
+import type { BlogFeedItem } from "@docusaurus/plugin-content-blog";
+
+import { loadBlogPost, loadLatestBlogPostPath, postNameToUrl } from '../lib/posts';
 
 import styles from './index.module.css';
+import BlogCard from '../components/BlogCard';
+
+import { Buffer } from 'buffer';
+global.Buffer = Buffer;
+
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -30,14 +37,32 @@ function HomepageHeader() {
 }
 
 export default function Home(): ReactNode {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
+  const [post, setPost] = useState<BlogFeedItem | null>(null);
+  
+  const repo = "ChillBox-104/site";
+
+  useEffect(() => {
+    (async () => {
+      const [latestPath, ref] = await loadLatestBlogPostPath(repo)
+      let post = await loadBlogPost(postNameToUrl(repo, latestPath, false));
+      post.link = ref
+      
+      setPost(post);
+    })();
+  }, []);
+
   return (
     <Layout
       title={`${siteConfig.title}`}
       description={`${siteConfig.tagline}`}>
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        {post && 
+          <>
+            <BlogCard post={post} />
+          </>
+        }
       </main>
     </Layout>
   );

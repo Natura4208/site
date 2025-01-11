@@ -1,0 +1,13 @@
+.noGap > * {
+  margin: 1px;
+  padding: 0;
+  text-overflow: ellipsis;
+}
+
+.muted {
+  color: var(--custom-muted);
+}
+
+.normaliseColor > * {
+  color: var(--custom-text);
+}
