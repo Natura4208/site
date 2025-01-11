@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkchill_box_104=self.webpackChunkchill_box_104||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Hello","permalink":"/site/blog/hello-world","unlisted":false,"date":"2025-01-08T22:13:56.000Z"}]}')}}]);

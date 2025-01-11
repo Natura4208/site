@@ -4,10 +4,36 @@
         <title>ChillBox 104 Blog</title>
         <link>https://chillbox-104.github.io/site/blog/</link>
         <description>ChillBox 104 Blog</description>
-        <lastBuildDate>Wed, 08 Jan 2025 22:13:56 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 11 Jan 2025 22:10:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[AO1]]></title>
+            <link>https://chillbox-104.github.io/site/blog/another-one-1/</link>
+            <guid>https://chillbox-104.github.io/site/blog/another-one-1/</guid>
+            <pubDate>Sat, 11 Jan 2025 22:10:56 GMT</pubDate>
+            <description><![CDATA[This is just a test!!!!]]></description>
+            <content:encoded><![CDATA[<p>This is just a test!!!!</p>
+<p><strong>"first"</strong></p>
+<p>...
+very long
+<code>wewe</code>
+<strong>weeee</strong></p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[AO2]]></title>
+            <link>https://chillbox-104.github.io/site/blog/another-one-2/</link>
+            <guid>https://chillbox-104.github.io/site/blog/another-one-2/</guid>
+            <pubDate>Sat, 11 Jan 2025 22:10:56 GMT</pubDate>
+            <description><![CDATA[This is just a test111!!!!]]></description>
+            <content:encoded><![CDATA[<p>This is just a test111!!!!</p>
+<p><strong>"second"</strong></p>
+<p>...
+very long
+<code>wewe</code>
+<strong>weeee</strong></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Hello]]></title>
             <link>https://chillbox-104.github.io/site/blog/hello-world/</link>
