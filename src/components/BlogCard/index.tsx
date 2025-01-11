@@ -14,7 +14,6 @@ export type BlogCardProps = {
 };
 
 export default function BlogCard({ post }: BlogCardProps) {
-    console.log(post.image);
     return (
         <div className='flex flex-col items-center my-7 gap-3'>
             <div className='flex items-start text-left w-[90vw]'>
@@ -25,7 +24,7 @@ export default function BlogCard({ post }: BlogCardProps) {
                 {post.image && (
                     <img
                         alt={post.title}
-                        className="rounded-xl max-h-[30vh] max-w-[40vw]"
+                        className="rounded-xl object-contain max-h-[30vh] max-w-[40vw]"
                         src={post.image as any}
                     />
                 )}
