@@ -12,16 +12,21 @@ import styles from './index.module.css';
 import BlogCard from '../components/BlogCard';
 
 import { Buffer } from 'buffer';
+import useServerData from '../lib/hooks/useServerData';
+import OnlineMembersSection from '../components/OnlineMembersSection';
 global.Buffer = Buffer;
 
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
+  
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          {siteConfig.title}
+          <p>
+            {siteConfig.title}
+          </p>
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
@@ -63,6 +68,11 @@ export default function Home(): ReactNode {
             <BlogCard post={post} />
           </>
         }
+        <div className='flex justify-center w-full'>
+          <hr className='w-[95%] bg-[var(--custom-muted)]' />
+        </div>
+
+        <OnlineMembersSection />
       </main>
     </Layout>
   );

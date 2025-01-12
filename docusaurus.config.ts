@@ -86,6 +86,12 @@ const config: Config = {
           position: 'left'
         },
 
+        {
+          position: "right",
+          label: "Join Today",
+          to: "/docs/play",
+        }
+
         // TODO: Add Store
       ],
     },

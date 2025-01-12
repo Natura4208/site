@@ -22,6 +22,7 @@
 
   --custom-muted: hsl(215.4 16.3% 46.9%);;
   --custom-text: black;
+  --custom-bg: white;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -37,4 +38,5 @@
 
   --custom-muted: hsl(0, 1%, 63%);
   --custom-text: white;
+  --custom-bg: black;
 }
