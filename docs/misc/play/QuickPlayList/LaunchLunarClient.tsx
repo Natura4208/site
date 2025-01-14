@@ -6,6 +6,7 @@ export default function LaunchWithLunarClient() {
       <a 
          className={Styles.launchButton} 
          href="lunarclient://play?forceRecommendedVersion=1.21.4&serverAddress=chillbox104.minehut.gg&serverPort=25565"
+         style={{ width: window.innerWidth <= 768 ? '100%' : 'auto' }}
       >
          <FaMoon />
          Launch In Lunar Client
