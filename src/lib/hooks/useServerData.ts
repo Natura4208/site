@@ -22,6 +22,8 @@ export default function useServerData() {
 }
 
 function update(ignoreFocusCheck = false) {
+   if (typeof document === "undefined") return;
+
    fetch(`https://api.minehut.com/server/${SERVER_NAME}?byName=true`)
    .then((res) => res.json())
    .then((json) => {
