@@ -22,7 +22,7 @@ export default function useServerData() {
 }
 
 function update(ignoreFocusCheck = false) {
-   if (typeof document === "undefined") return;
+   if (typeof document === "undefined") return console.warn("Document is not defined");
 
    fetch(`https://api.minehut.com/server/${SERVER_NAME}?byName=true`)
    .then((res) => res.json())
