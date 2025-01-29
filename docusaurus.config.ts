@@ -71,7 +71,8 @@ const config: Config = {
       title: 'ChillBox 104',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
+        className: "rounded-lg"
       },
       items: [
         {

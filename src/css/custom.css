@@ -23,6 +23,7 @@
   --custom-muted: hsl(215.4 16.3% 46.9%);;
   --custom-text: black;
   --custom-bg: white;
+  --custom-card: rgb(244, 244, 244);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -38,5 +39,11 @@
 
   --custom-muted: hsl(0, 1%, 63%);
   --custom-text: white;
-  --custom-bg: black;
+  --custom-bg: black;;
+  --custom-card: rgb(23, 22, 22);
+}
+
+.hero {
+  background-color: var(--docusaurus-highlighted-code-line-bg);
+  color: var(--custom-text)
 }

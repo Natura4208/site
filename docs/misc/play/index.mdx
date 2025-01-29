@@ -9,10 +9,12 @@ description: Learn how to join ChillBox104
 import ServerOfflineWarning from './ServerOfflineWarning'
 import QuickPlayList from './QuickPlayList'
 import BrowserOnly from '@docusaurus/BrowserOnly';
+import CopyButton from "/src/components/CopyButton"
 
 <ServerOfflineWarning />
-**Java IP:** `chillbox104.minehut.gg`
-**Bedrock IP:** `chillbox104.bedrock.minehut.gg`
+**Java IP:** `chillbox104.minehut.gg` <CopyButton className="ml-0" text="chillbox104.minehut.gg" />
+
+**Bedrock IP:** `chillbox104.bedrock.minehut.gg` <CopyButton className="ml-0" text="chillbox104.bedrock.minehut.gg" />
 ## Quick Launch:
 <BrowserOnly>
    {() =>
@@ -21,7 +23,7 @@ import BrowserOnly from '@docusaurus/BrowserOnly';
 </BrowserOnly>
 
 ## The server is offline, what do I do?
-If the server is offline, join the minehut lobby (`minehut.gg`) and type the command "`/join chillbox104`"
+If the server is offline, join the minehut lobby (`minehut.gg`) and run the command "`/join chillbox104`"
 
 ## I can't join the Minehut lobby
 If you can't join the minehut lobby, it is probably because Minehut is offline. If this is the case, you should join our [Discord Server](https://discord.gg/cGBPV5kUHP) or wait for about one day or two.
