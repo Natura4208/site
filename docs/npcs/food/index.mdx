@@ -9,14 +9,34 @@ import Banner from "/src/components/Banner"
 
 <Banner 
    src={require("./icon.png").default} 
-   tags={{Type: "Shopkeeper", Location: "Spawn Zone"}}
+   tags={{Name: "Food", Type: "Shopkeeper", Location: "Spawn Zone"}}
    title="Food NPC" 
 />
 
 <div className="mt-6" />
 
-# Items:
+# Normal Food:
 
-| Food | Price |
-|---|----|
-| To be determined  |  xxx  |
+<img src={require("./normal-ui.png").default} alt="Normal Food Ui" className="w-full sm:w-1/2 mx-auto rounded-md mb-3" />
+
+| Food | Credits | Ammount |
+|---|----|----|
+| Baked Potato  |  30  | 4 |
+| Cooked Chicken  |  35  | 4 |
+| Steak  |  30  | 50 |
+| Golden Apple  |  150  | 2 |
+
+<br />
+
+# Premium Food
+Can be bought by having one of the paid ranks, which you can buy in our shop. (check the perks of each rank for more info) <br />
+This food is better then the normal food, shown above.
+
+<img src={require("./premium-ui.png").default} alt="Premium Food Ui" className="w-full sm:w-1/2 mx-auto rounded-md mb-3" />
+
+| Food | Credits | Ammount |
+|---|----|----|
+| Premium Steak  |  75  | 32 |
+| Golden Apple  |  250  | 8 |
+| Enchanted Golden Apple  |  300  | 1 |
+| [Crazy Biscuit](/docs/items/crazy_biscuit)  |  500  | 1 |

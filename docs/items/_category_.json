@@ -1,6 +1,6 @@
 {
-  "label": "Miscellaneous",
-  "position": 5,
+  "label": "Items",
+  "position": 4,
   "link": {
     "type": "generated-index"
   }

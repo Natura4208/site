@@ -1,5 +1,5 @@
 .bgOverlay {
    background-image:
-   linear-gradient(to top, rgba(0, 0, 0, 0.87) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0) 100%),
+   linear-gradient(to top, rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.87) 100%),
    url('/static/img/bg.png');
 }
