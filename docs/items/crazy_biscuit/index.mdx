@@ -1,4 +1,31 @@
 ---
 title: Crazy Biscuit
 ---
-To Be Done
+#
+
+import Banner from "/src/components/Banner";
+
+{/* TODO: Set propper rank at "Requires Rank" */}
+<Banner 
+   title="Crazy Biscuit"
+   src={require("./icon.png").default}
+   imageClassName="object-contain rounded-md"
+   tags={{
+      Type: "Food", 
+      "Obtainability": "Buyable", 
+      "Requires Rank": "Yes"
+   }}
+/>
+
+<div className="mt-2" />
+
+# How to obtain:
+The Crazy Biscuit can be bought from the [Food NPC](/docs/npcs/food) for 500 credits.
+It requires access to the "Premium Food" section.
+
+# Effects:
+- Heals you instantly
+- Feeds you instantly (gets you to 100% hunger)
+- Gives you the "Strenght 4" effect for 20 seconds
+- Gives you the "Regeneration 4" effect for 20 seconds
+- Gives you the "Speed 4" effect for 20 seconds
