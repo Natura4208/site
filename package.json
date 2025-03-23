@@ -24,6 +24,7 @@
     "autoprefixer": "^10.4.20",
     "buffer": "^6.0.3",
     "clsx": "^2.1.1",
+    "dotenv": "^16.4.7",
     "jotai": "^2.11.0",
     "postcss": "^8.4.49",
     "prism-react-renderer": "^2.3.0",

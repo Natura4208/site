@@ -1,0 +1,31 @@
+---
+title: Unknown Sword
+description: The Unknown Sword is an elemental sword.
+---
+#
+
+import Banner from "/src/components/Banner";
+
+<Banner 
+   title="Unknown Sword"
+   src={require("./icon.png").default}
+   imageClassName="object-contain rounded-md"
+   tags={{
+      Type: "Elemental Sword", 
+      Obtainability: "Craftable",
+      Rarity: "Epic",
+      Ability: "Strange Effect"
+
+   }}
+/>
+
+<div className="mt-6" />
+
+# Crafting Recipe:
+The crafting table can be accessed in the swords menu (`/swords`) by clicking on the `Craft` slot.
+<img src={require("./crafting.png").default} alt="Crafting Recipe" className="w-full sm:w-1/2 mx-auto rounded-md mb-3" />
+|                         |                |                        |
+|------------------------|----------------|------------------------|
+| Unknown evolution shard  | Earth Sword    | Unknown evolution shard  |
+| Unknown evolution shard  | Ice Sword  | Unknown evolution shard  |
+| Unknown evolution shard  | Unknown evolution shard | Unknown evolution shard |

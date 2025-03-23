@@ -1,0 +1,31 @@
+---
+title: Thunder Sword
+description: The Thunder Sword is an elemental sword.
+---
+#
+
+import Banner from "/src/components/Banner";
+
+<Banner 
+   title="Thunder Sword"
+   src={require("./icon.png").default}
+   imageClassName="object-contain rounded-md"
+   tags={{
+      Type: "Elemental Sword", 
+      Obtainability: "Craftable",
+      Rarity: "Epic",
+      Ability: "Strike a Thunder"
+
+   }}
+/>
+
+<div className="mt-6" />
+
+# Crafting Recipe:
+The crafting table can be accessed in the swords menu (`/swords`) by clicking on the `Craft` slot.
+<img src={require("./crafting.png").default} alt="Crafting Recipe" className="w-full sm:w-1/2 mx-auto rounded-md mb-3" />
+|                         |                |                        |
+|------------------------|----------------|------------------------|
+| Thunder evolution shard  | Ice Sword    | Thunder evolution shard  |
+| Thunder evolution shard  | Burning Sword  | Thunder evolution shard  |
+| Thunder evolution shard  | Thunder evolution shard | Thunder evolution shard |

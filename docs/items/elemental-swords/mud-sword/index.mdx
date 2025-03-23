@@ -1,0 +1,31 @@
+---
+title: Mud Sword
+description: The Mud Sword is an elemental sword.
+---
+#
+
+import Banner from "/src/components/Banner";
+
+<Banner 
+   title="Mud Sword"
+   src={require("./icon.png").default}
+   imageClassName="object-contain rounded-md"
+   tags={{
+      Type: "Mud Sword", 
+      Obtainability: "Craftable",
+      Rarity: "Rare",
+      Ability: "Confuse Players"
+
+   }}
+/>
+
+<div className="mt-6" />
+
+# Crafting Recipe:
+The crafting table can be accessed in the swords menu (`/swords`) by clicking on the `Craft` slot.
+<img src={require("./crafting.png").default} alt="Crafting Recipe" className="w-full sm:w-1/2 mx-auto rounded-md mb-3" />
+|                         |                |                        |
+|------------------------|----------------|------------------------|
+| Mud evolution shard  | Earth Sword    | Mud evolution shard  |
+| Mud evolution shard  | Water Sword  | Mud evolution shard  |
+| Mud evolution shard  | Mud evolution shard | Mud evolution shard |
