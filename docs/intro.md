@@ -10,7 +10,7 @@ Do you feel stuck? You are in the right place!
 
 ## Index:
 <!-- TODO: Uncomment when added -->
-<!-- - [Features](/docs/category/features/) -->
+- [Features](/docs/category/features/)
 - [NPCs](/docs/category/npcs/)
 <!-- - [Zones](/docs/category/zones/) -->
 - [Misc](/docs/category/miscellaneous/)
